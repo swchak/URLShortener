@@ -1,0 +1,31 @@
+{
+  "name": "gatherly",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=gatherly:* npm run devstart",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "expect": "^26.6.2",
+    "express": "~4.16.1",
+    "helmet": "^4.6.0",
+    "http-errors": "~1.6.3",
+    "mocha": "^8.4.0",
+    "mongoose": "^5.12.7",
+    "morgan": "~1.9.1",
+    "nanoid": "^3.1.22",
+    "nconf": "^0.11.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
